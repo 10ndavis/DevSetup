@@ -1,4 +1,4 @@
-$packages = "firefox","gitkraken","jetbrainstoolbox", "git", "flutter"
+$packages = "firefox", "gitkraken", "jetbrainstoolbox", "git", "flutter"
 
 foreach ($package in $packages) {
     Write-Host "Installing $package"
